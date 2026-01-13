@@ -31,12 +31,12 @@ const UserProfileLeft = () => {
           </Box>
 
           <VStack>
-            <p className="font-bold text-base mb-2">
+            <p className="font-extrabold text-lg mb-2">
               {(userDetail && userDetail.username) || "JoinInfinite"}
             </p>
-            <p className="text-center text-sm">
+            <p className="text-center text-sm font-bold">
               {(userDetail &&
-                `Hello ${userDetail.username.toUpperCase()}.Welcome to the JoinInfine`) ||
+                `Hello ${userDetail.username}. Welcome to the JoinInfine`) ||
                 "JoinInfinite"}
             </p>
           </VStack>
